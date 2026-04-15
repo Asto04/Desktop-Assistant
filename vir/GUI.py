@@ -64,10 +64,3 @@ button2.place(x= 120, y= 575,width=150)
 button3 = Button(root, text="Delete", bg="#356696" , pady=16 ,  padx=40,  borderwidth=3 , relief=SOLID ,command=delete_text)
 button3.place(x= 300,y= 575, width=150)
 root.mainloop()
-
-# python -m pip install pillow
-# python -m pip install SpeechRecognition
-# python -m pip install PyAudio
-# pip install pyttsx3
-# pip install requests-html==0.10.0
-# pip install lxml==4.9.1
